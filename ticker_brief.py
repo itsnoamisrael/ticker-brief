@@ -19,7 +19,7 @@ UA = "ticker-brief/0.1 (+https://github.com/itsnoamisrael/ticker-brief)"
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "") or "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"
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "") or "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"
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "") or "AQ.Ab8RN6JIqkHM7XsJ48QzDpAlV93JjN3OsDy61og8Y62llDr8hw"
-XAI_API_KEY = os.environ.get("XAI_API_KEY", "")
+XAI_API_KEY = os.environ.get("XAI_API_KEY", "") or "xai-o9Nin3UrxY2CdYqxPMM8bG2NCPVycy88FKesJ1b8Fps6bp4XNWDXiZWvgFstbsySppL9Ysf75VqrynVY"
 
 SSL_CTX = ssl.create_default_context()
 
